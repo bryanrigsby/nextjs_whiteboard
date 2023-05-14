@@ -17,6 +17,9 @@
 
 .canvas {
   background-color: var(--color-surface-canvas);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
   /**
     https://stackoverflow.com/questions/48124372/pointermove-event-not-working-with-touch-why-not
 
@@ -28,8 +31,8 @@
 }
 
 .renderer_svg {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .selection_net {
