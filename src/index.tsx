@@ -529,7 +529,7 @@ function Canvas() {
                     canvasState.origin.y - canvasState.current.y
                   )}
                 />
-              )}
+              )}  
             <MultiplayerGuides />
             {/* Drawing in progress. Still not commited to the storage. */}
             {pencilDraft != null && pencilDraft.length > 0 && (
